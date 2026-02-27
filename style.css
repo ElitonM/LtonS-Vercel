@@ -75,23 +75,7 @@ p { color: #333; margin-bottom: 40px; }
     font-size: 1.2rem;
 }
 
-/* Estilo do Rodapé */
-.social-footer {
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.social-footer a {
-    color: #000;
-    font-size: 1.5rem;
-    transition: transform 0.2s;
-}
-
-.social-footer a:hover {
-    transform: scale(1.2);
-}
 
 }
+
 
