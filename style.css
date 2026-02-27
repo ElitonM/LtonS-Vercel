@@ -61,4 +61,37 @@ p { color: #333; margin-bottom: 40px; }
     transform: translateY(-3px);
     border: 2px solid #000; /* Adiciona borda preta */
 
+/* Ajuste para alinhar ícones dentro dos botões */
+.link-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px; /* Espaço entre o ícone e o texto */
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
 }
+
+.link-card i {
+    font-size: 1.2rem;
+}
+
+/* Estilo do Rodapé */
+.social-footer {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-footer a {
+    color: #000;
+    font-size: 1.5rem;
+    transition: transform 0.2s;
+}
+
+.social-footer a:hover {
+    transform: scale(1.2);
+}
+
+}
+
