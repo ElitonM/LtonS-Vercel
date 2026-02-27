@@ -39,6 +39,8 @@ p { color: #333; margin-bottom: 40px; }
 }
 
 .link-card {
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent; /* Remove o flash azul ao tocar no Android/iOS */
     display: block;
     background-color: #000; /* Botão PRETO */
     color: #F8D01C; /* Texto AMARELO */
@@ -58,4 +60,5 @@ p { color: #333; margin-bottom: 40px; }
     color: #000; /* Preto */
     transform: translateY(-3px);
     border: 2px solid #000; /* Adiciona borda preta */
+
 }
