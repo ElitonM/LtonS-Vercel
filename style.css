@@ -1,0 +1,61 @@
+/* Configurações Gerais - Paleta baseada na imagem */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F8D01C; /* Amarelo vibrante do logo - você pode ajustar o tom exato se preferir */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #000; /* Texto geral preto */
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #000; /* Borda grossa preta para destacar */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+h1 { margin: 20px 0 5px; font-size: 1.8rem; font-weight: 800; color: #000; }
+p { color: #333; margin-bottom: 40px; }
+
+/* Botões de Link */
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.link-card {
+    display: block;
+    background-color: #000; /* Botão PRETO */
+    color: #F8D01C; /* Texto AMARELO */
+    text-decoration: none;
+    padding: 18px;
+    border-radius: 12px;
+    font-weight: 900;
+    text-transform: uppercase; /* Dá um toque mais 'logo' */
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    border: 2px solid transparent;
+}
+
+/* Efeito de passar o mouse/clique - INVERTE as cores */
+.link-card:hover {
+    background-color: #F8D01C; /* Amarelo */
+    color: #000; /* Preto */
+    transform: translateY(-3px);
+    border: 2px solid #000; /* Adiciona borda preta */
+}
